@@ -31,19 +31,18 @@ header {
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
 }
-
 .logo {
     width: 120px;
     margin-top: 8px;
     background-color: #311717;
 }
 nav ul {
+    
     display: flex;
 }
 .cart {
     color: #fff;
     font-size: 30px;
-    padding: 10px;
 }
 nav ul li a {
     color: #fff;
@@ -53,6 +52,7 @@ nav ul li a {
     padding: 8px 18px;
     transition: 0.2s;
     border-radius: 30px;
+    
 }
 
 nav ul li a:hover {
@@ -94,7 +94,7 @@ nav ul li a.active {
     }
     nav {
         position: absolute;
-        right: -1000000px;
+        right: -400px;
         top: 100px;
         z-index: 999;
         width: 200px;
@@ -143,10 +143,47 @@ nav ul li a.active {
   margin-right: 20px;
   margin-bottom: 20px;
   height: 100vh;
-  
-
-    /* margin-top: 100px;
-    margin-bottom: 30%; */
+}
+@media screen and (max-width: 650px) {
+    .secmain {
+        display: block;
+        margin-left: 10%;
+        /* margin-right: 10%; */
+        margin-bottom: 20px;
+        margin-top: 30%;
+        /* margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px; */
+        height: 90vh;
+        
+    }
+    .secnd {
+        display: none;
+    }
+    .secnd2 {
+        word-wrap: break-word;
+        padding: 20px;
+    }
+    .frame {
+        height: 350px;
+        width: 300px;
+        overflow: hidden;
+        background-color: aqua;
+        border-radius: 10px;
+        position: absolute;
+        border: 5px solid #bd4622;
+        max-width: 300px;
+        left: 20%;
+    }
+}
+@media screen and (min-width: 650px) {
+    .secnd {
+        display: block;
+    }
+    .secnd2 {
+        display: none;
+    }
+    
 }
 .frame {
     height: 350px;
@@ -248,6 +285,7 @@ float: left;
     color: #fff;
     padding-top: 120px;
     border-radius: 20px;
+    line-height: 10px;
 }
 .about2 h1 {
     text-align: center;
@@ -410,6 +448,7 @@ button.active {
     padding: 0 15px;
     border-radius: 20px;
 }
+
 .test-area .contain .sec-title {
     position: relative;
     margin-bottom: 50px;
@@ -544,10 +583,8 @@ button.active {
     margin-bottom: 20px;
     border: 20px solid #bd4622;
     border-radius: 10px;
-    letter-spacing: 2px;
-    line-height: 30px;
     font-family: 'Raleway';
-    font-size: 30px;
+    font-size: 20px;
 }
 .un {
     display: flex;
