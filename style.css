@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-    background-color: #bd4622;
+    background-color: #973416;
     color: #fff;
 }
 
@@ -81,7 +81,7 @@ nav ul li a.active {
     width: 30px;
     height: 2px;
     margin: 6px 0;
-    background-color: #bd4622;
+    background-color: #973416;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -171,7 +171,7 @@ nav ul li a.active {
         background-color: aqua;
         border-radius: 10px;
         position: absolute;
-        border: 5px solid #bd4622;
+        border: 5px solid #973416;
         max-width: 300px;
         left: 20%;
     }
@@ -193,7 +193,7 @@ nav ul li a.active {
     border-radius: 10px;
     flex: 1;
     position: relative;
-    border: 5px solid #bd4622;
+    border: 5px solid #973416;
     max-width: 300px;
 
 }
@@ -268,7 +268,7 @@ float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #bd4622;
+    background-color: #973416;
    /*  height: 90vh; */
     border-radius: 20px;
     /* padding: 20px; */
@@ -280,7 +280,7 @@ float: left;
     flex: 2;
     position: relative;
     text-align: left;
-    background-color: #bd4622;
+    background-color: #973416;
     padding: 40px;
     color: #fff;
     padding-top: 120px;
@@ -314,7 +314,7 @@ float: left;
     .about1 {
         height: 50vh;
         margin: 10px;
-        padding: 20px #bd4622;
+        padding: 20px #973416;
     }
     .about2 {
         margin: 4px;
@@ -355,7 +355,7 @@ button {
     border-radius: 6px;
     box-shadow: 10px rgba(0, 0, 0, 0.05);
     cursor: pointer;
-    background-color: #bd4622;
+    background-color: #973416;
     color: #fff;
 }
 button.active {
@@ -368,7 +368,7 @@ button.active {
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #bd4622;
+    background-color: #973416;
     flex: 1 1 calc(33.33% - 20px);
 }
 .card {
@@ -376,7 +376,7 @@ button.active {
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    background-color: #bd4622;
+    background-color: #973416;
     box-shadow: 10px rgba(0, 0, 0, 0.05)
 }
 
@@ -436,7 +436,7 @@ button.active {
 .test-area {
     width: 100%;
     min-height: 100vh;
-    background: #bd4622;
+    background: #973416;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,7 +486,7 @@ button.active {
     width: calc(100% + 100px);
 }
 .single-test {
-    border: 7px solid #bd4622;
+    border: 7px solid #973416;
     text-align: center;
     border-radius: 18px;
     position: relative;
@@ -550,7 +550,7 @@ button.active {
     left: -35px;
     top: -35px;
     background: #3a1919;
-    color: #bd4622;
+    color: #973416;
     font-size: 90px;
     width: 126px;
     height: 100px;
@@ -563,7 +563,7 @@ button.active {
     right: -35px;
     bottom: -35px;
     background: #3a1919;
-    color: #bd4622;
+    color: #973416;
     font-size: 90px;
     width: 126px;
     height: 100px;
@@ -581,7 +581,7 @@ button.active {
     margin: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 20px solid #bd4622;
+    border: 20px solid #973416;
     border-radius: 10px;
     font-family: 'Raleway';
     font-size: 20px;
@@ -636,7 +636,7 @@ button.active {
     outline: none;
     padding-left: 25px;
     font-weight: 500;
-    background: #bd4622;
+    background: #973416;
     color: #fff;
     border-radius: 50px;
 }
@@ -681,7 +681,7 @@ textarea::placeholder {
 }
 .fa-brands {
     font-size: 25px;
-    color: #bd4622;
+    color: #973416;
     padding: 10px;
     right: 0;
 }
@@ -699,5 +699,5 @@ textarea::placeholder {
 
 footer marquee{
     font-size: 20px;
-    color: #bd4622;
+    color: #973416;
 }
